@@ -1,0 +1,8 @@
+<mapper namespace="user" >
+    <select id="selectList" resultType="com.tangcheng.user"  >
+        select * from user
+    </select>
+    <select id="selectOne" resultType="com.tangcheng.user" patamterTYpe="com.tangcheng.pojo.user">
+        select * from user where id = #{username} and username = #{password}
+    </select>
+</mapper>

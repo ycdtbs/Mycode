@@ -1,0 +1,9 @@
+<configuration >
+    <dataSource>
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl"value="jdbc:mysql:///mystudy"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="tangcheng120"></property>
+    </dataSource>
+    <mapper resource="usermapper.xml"></mapper>
+</configuration>
